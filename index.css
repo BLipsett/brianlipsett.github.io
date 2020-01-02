@@ -9,10 +9,20 @@
     font-size: 18px;
     line-height: 150%;
     color: #777777;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/escheresque.png);
-    background-color: dimgrey;
-  }
+    
+    /* The image used */
+    background-image: url(https://images.unsplash.com/photo-1577914262745-4508af98fcfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
   
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   .header {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
