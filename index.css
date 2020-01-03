@@ -30,28 +30,22 @@
     padding: 30px 25%;
   }
   
-  .header-right a {
-    float: left;
-    color: darkcyan;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 150%;
-    padding: 0px 10px;
+  .navbar {
+      padding: 0%;
   }
   
-  h1 {
+  .navbar-brand {
     font-size: 25px;
     font-weight: bold;
     display: inline;
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 50px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
   }
   
-  .header a:hover {
-    background-color: #4aaaa5;
-    color: black;
+  .navbar-light .navbar-brand{
+      color: #ffffff;
   }
   
   
@@ -113,3 +107,13 @@
     bottom: 0;
     width: 100%;
   }
+
+  .nav-item {
+    list-style-type: none;
+    color: #777777 ;
+  }
+
+  .nav-link {
+      color: #777777;
+  }
+  
