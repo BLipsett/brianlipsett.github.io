@@ -9,23 +9,19 @@
     font-size: 18px;
     line-height: 150%;
     color: #777777;
-    
     /* The image used */
     background-image: url(https://images.unsplash.com/photo-1577920301103-d37a7f175967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1901&q=80);
-  
-    /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
   }
 
 
   .page-header {
-    font-family:  Georgia, 'Times New Roman', Times, serif;
+   font-family:  Georgia, 'Times New Roman', Times, serif;
    color: #ffffff;
+   margin: 1em;
     
   }
   
@@ -96,19 +92,11 @@
     padding: 25px 0px 41px 15px;
   }
   
-  
-  .footer  {
-    text-align: center;
-    color: #ffffff;
-    border-top: 8px solid rgb(248,143,46);
+  .footer {
     background-color: #777777;
-    font-family: 'Lobster' , cursive;
-    font-size: 25px;
-    padding: 6px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
   }
+
+  
 
   .nav-item {
     list-style-type: none;
